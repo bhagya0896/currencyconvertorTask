@@ -2,7 +2,7 @@ body
 {
     margin:50px 20px 10px;
     padding:0;
-    background-color:rgb(128, 128, 128) ;
+    background-color:rgba(128, 128, 128, 0) ;
     color:white;
     background-image:url("C:\Users\Royals\Desktop\guvi_b20_batch\GUVI_DAILY_TASKS\promise,async,await\currencyconverter");
     background-position: center;
@@ -16,7 +16,7 @@ body
 h2
 {
     text-align: center;
-    background-color:rgba(128, 128, 128, 0.377) ;
+    background-color:rgba(128, 128, 128, 0.377)  ;
     text-transform:uppercase;
     letter-spacing: 5px;
     font-weight: bold;
