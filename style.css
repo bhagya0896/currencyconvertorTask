@@ -1,0 +1,129 @@
+body
+{
+    margin:50px 20px 10px;
+    padding:0;
+    background-color:rgb(128, 128, 128) ;
+    color:white;
+    background-image:url("image.jpg");
+    background-position: center;
+    background-repeat:space;
+
+}
+.my-style
+{
+    margin-top:1px;
+}
+h2
+{
+    text-align: center;
+    background-color:rgba(128, 128, 128, 0.377) ;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    width:100%;
+    border-style: outset;
+    border-color:rgb(128, 128, 128);
+}
+ form input{
+    width:100%;
+    border-radius:2%;
+}
+ form select{
+    width:100%;
+    letter-spacing: 2px;
+    border-radius:2%;
+    background-color:rgba(0, 0, 0, 0.411) ;
+    color:white;
+    height:40px;
+   padding:2px;
+   font-family:'Times New Roman', Times, serif;
+}
+ form label ,.style,h4{
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 18px;
+}
+button
+{
+    height:2%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#resultdisplay
+{
+    height:100px;
+    width:100%;
+    border-style:outset;
+    padding:2%;
+    background-color:grey ;
+}
+@media screen and (max-width: 700px) {
+    body
+    {
+        margin:2px;
+        padding-top:20px;
+        background-color:rgb(128, 128, 128) ;
+        color:white;
+        background-image:url("image.jpg");
+        background-position: center;
+        background-repeat:space;
+    
+    }
+    .my-style
+    {
+        margin-top:1px;
+    }
+    h2
+    {
+        text-align: center;
+        text-transform:uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        width:100%;
+        background-color:rgba(128, 128, 128, 0.377) ;
+        border-style: outset;
+        border-color:rgb(128, 128, 128);
+    }
+     form input{
+        width:100%;
+       
+    }
+     form select{
+        width:100%;
+      
+        border-radius:2%;
+        background-color:rgba(0, 0, 0, 0.411) ;
+        color:white;
+        font-family:'Times New Roman', Times, serif;
+    }
+     form label ,.style,h4{
+       
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+        font-style: normal;
+        font-size:12px;
+        
+    }
+    button
+    {
+       
+        text-align: center;
+        text-transform: uppercase;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        height:40px;
+    }
+    #resultdisplay
+    {
+       
+        width:100%;
+        border-style:outset;
+        height:60px;
+        background-color:grey ;
+    }
+  }
